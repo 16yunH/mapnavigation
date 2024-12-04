@@ -88,11 +88,9 @@ int main() {
 
     PathFinder pathFinder(parser);
 
-    // 设置起点和终点的节点 ID
-    long long startNodeId = 573197126; // 请替换为实际的节点 ID
-    long long goalNodeId = 573197160;  // 请替换为实际的节点 ID
+    long long startNodeId = 2845789961;
+    long long goalNodeId = 946031310;
 
-    // 寻找最短路径
     std::vector<long long> shortestPath = pathFinder.findShortestPath(startNodeId, goalNodeId);
 
     if (shortestPath.empty()) {
