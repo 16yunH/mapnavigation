@@ -15,7 +15,7 @@ using namespace std;
 class PathFinder
 {
 public:
-    PathFinder(const OsmParser &parser);
+    explicit PathFinder(const OsmParser &parser);
     vector<ll> findShortestPath(ll startId, ll goalId);
 
 private:
