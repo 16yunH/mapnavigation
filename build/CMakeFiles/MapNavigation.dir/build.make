@@ -127,42 +127,12 @@ CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.s"
 	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\3.code\CLionProjects\mapnavigation\backend\lib\tinyxml2.cpp -o CMakeFiles\MapNavigation.dir\lib\tinyxml2.cpp.s
 
-CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj: CMakeFiles/MapNavigation.dir/flags.make
-CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj: D:/3.code/CLionProjects/mapnavigation/backend/src/API/handlers.cpp
-CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj: CMakeFiles/MapNavigation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\3.code\CLionProjects\mapnavigation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj -MF CMakeFiles\MapNavigation.dir\src\API\handlers.cpp.obj.d -o CMakeFiles\MapNavigation.dir\src\API\handlers.cpp.obj -c D:\3.code\CLionProjects\mapnavigation\backend\src\API\handlers.cpp
-
-CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.i"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\3.code\CLionProjects\mapnavigation\backend\src\API\handlers.cpp > CMakeFiles\MapNavigation.dir\src\API\handlers.cpp.i
-
-CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.s"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\3.code\CLionProjects\mapnavigation\backend\src\API\handlers.cpp -o CMakeFiles\MapNavigation.dir\src\API\handlers.cpp.s
-
-CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj: CMakeFiles/MapNavigation.dir/flags.make
-CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj: D:/3.code/CLionProjects/mapnavigation/backend/src/API/routes.cpp
-CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj: CMakeFiles/MapNavigation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\3.code\CLionProjects\mapnavigation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj -MF CMakeFiles\MapNavigation.dir\src\API\routes.cpp.obj.d -o CMakeFiles\MapNavigation.dir\src\API\routes.cpp.obj -c D:\3.code\CLionProjects\mapnavigation\backend\src\API\routes.cpp
-
-CMakeFiles/MapNavigation.dir/src/API/routes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MapNavigation.dir/src/API/routes.cpp.i"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\3.code\CLionProjects\mapnavigation\backend\src\API\routes.cpp > CMakeFiles\MapNavigation.dir\src\API\routes.cpp.i
-
-CMakeFiles/MapNavigation.dir/src/API/routes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MapNavigation.dir/src/API/routes.cpp.s"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\3.code\CLionProjects\mapnavigation\backend\src\API\routes.cpp -o CMakeFiles\MapNavigation.dir\src\API\routes.cpp.s
-
 # Object files for target MapNavigation
 MapNavigation_OBJECTS = \
 "CMakeFiles/MapNavigation.dir/main.cpp.obj" \
 "CMakeFiles/MapNavigation.dir/src/PathFinder.cpp.obj" \
 "CMakeFiles/MapNavigation.dir/src/OsmParser.cpp.obj" \
-"CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.obj" \
-"CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj" \
-"CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj"
+"CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.obj"
 
 # External object files for target MapNavigation
 MapNavigation_EXTERNAL_OBJECTS =
@@ -171,13 +141,11 @@ MapNavigation.exe: CMakeFiles/MapNavigation.dir/main.cpp.obj
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/src/PathFinder.cpp.obj
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/src/OsmParser.cpp.obj
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.obj
-MapNavigation.exe: CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj
-MapNavigation.exe: CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/build.make
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/linkLibs.rsp
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/objects1.rsp
 MapNavigation.exe: CMakeFiles/MapNavigation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\3.code\CLionProjects\mapnavigation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable MapNavigation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\3.code\CLionProjects\mapnavigation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MapNavigation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MapNavigation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

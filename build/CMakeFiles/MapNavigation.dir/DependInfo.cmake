@@ -10,8 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/3.code/CLionProjects/mapnavigation/backend/lib/tinyxml2.cpp" "CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.obj" "gcc" "CMakeFiles/MapNavigation.dir/lib/tinyxml2.cpp.obj.d"
   "D:/3.code/CLionProjects/mapnavigation/backend/main.cpp" "CMakeFiles/MapNavigation.dir/main.cpp.obj" "gcc" "CMakeFiles/MapNavigation.dir/main.cpp.obj.d"
-  "D:/3.code/CLionProjects/mapnavigation/backend/src/API/handlers.cpp" "CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj" "gcc" "CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj.d"
-  "D:/3.code/CLionProjects/mapnavigation/backend/src/API/routes.cpp" "CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj" "gcc" "CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj.d"
   "D:/3.code/CLionProjects/mapnavigation/backend/src/OsmParser.cpp" "CMakeFiles/MapNavigation.dir/src/OsmParser.cpp.obj" "gcc" "CMakeFiles/MapNavigation.dir/src/OsmParser.cpp.obj.d"
   "D:/3.code/CLionProjects/mapnavigation/backend/src/PathFinder.cpp" "CMakeFiles/MapNavigation.dir/src/PathFinder.cpp.obj" "gcc" "CMakeFiles/MapNavigation.dir/src/PathFinder.cpp.obj.d"
   )

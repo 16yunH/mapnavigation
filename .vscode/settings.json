@@ -1,6 +1,7 @@
 {
     "cmake.sourceDirectory": "D:/3.code/CLionProjects/mapnavigation/backend",
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "functional": "cpp"
     }
 }

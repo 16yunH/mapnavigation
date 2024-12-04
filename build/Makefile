@@ -176,54 +176,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/API/handlers.obj: src/API/handlers.cpp.obj
-.PHONY : src/API/handlers.obj
-
-# target to build an object file
-src/API/handlers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.obj
-.PHONY : src/API/handlers.cpp.obj
-
-src/API/handlers.i: src/API/handlers.cpp.i
-.PHONY : src/API/handlers.i
-
-# target to preprocess a source file
-src/API/handlers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.i
-.PHONY : src/API/handlers.cpp.i
-
-src/API/handlers.s: src/API/handlers.cpp.s
-.PHONY : src/API/handlers.s
-
-# target to generate assembly for a file
-src/API/handlers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/src/API/handlers.cpp.s
-.PHONY : src/API/handlers.cpp.s
-
-src/API/routes.obj: src/API/routes.cpp.obj
-.PHONY : src/API/routes.obj
-
-# target to build an object file
-src/API/routes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/src/API/routes.cpp.obj
-.PHONY : src/API/routes.cpp.obj
-
-src/API/routes.i: src/API/routes.cpp.i
-.PHONY : src/API/routes.i
-
-# target to preprocess a source file
-src/API/routes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/src/API/routes.cpp.i
-.PHONY : src/API/routes.cpp.i
-
-src/API/routes.s: src/API/routes.cpp.s
-.PHONY : src/API/routes.s
-
-# target to generate assembly for a file
-src/API/routes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapNavigation.dir\build.make CMakeFiles/MapNavigation.dir/src/API/routes.cpp.s
-.PHONY : src/API/routes.cpp.s
-
 src/OsmParser.obj: src/OsmParser.cpp.obj
 .PHONY : src/OsmParser.obj
 
@@ -287,12 +239,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/API/handlers.obj
-	@echo ... src/API/handlers.i
-	@echo ... src/API/handlers.s
-	@echo ... src/API/routes.obj
-	@echo ... src/API/routes.i
-	@echo ... src/API/routes.s
 	@echo ... src/OsmParser.obj
 	@echo ... src/OsmParser.i
 	@echo ... src/OsmParser.s
